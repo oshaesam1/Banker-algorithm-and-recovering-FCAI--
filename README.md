@@ -1,2 +1,2 @@
-# oshaesam1-Banker-algorithm-recovering--FCAI--
+# Banker-algorithm-recovering--FCAI--
 It’s a simulation for banker's algorithm processes request and release resources and the banker will grant a request only if it leaves the system in a safe state. A request is denied if it leaves the system in an unsafe state,: if a request let to a Deadlock, apply recovery algorithm (choose a victim , force it  to release resources and check again if the system is in a safe state, if still in an unsafe  state then will choose a victim again force it to release and check again and keep  repeating until it reaches a safe state).
